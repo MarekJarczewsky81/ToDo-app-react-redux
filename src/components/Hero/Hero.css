@@ -1,0 +1,22 @@
+.hero {
+  padding: 12px;
+}
+
+.title {
+  padding: 36px 0;
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.title + .subtitle {
+  margin-top: -36px;
+}/*# sourceMappingURL=Hero.module.css.map */

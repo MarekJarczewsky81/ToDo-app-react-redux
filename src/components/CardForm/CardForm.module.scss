@@ -1,0 +1,15 @@
+@use "sass:math";
+@import '../../styles/settings.scss';
+@import "../../styles/typography.scss";
+
+
+
+.cardForm {
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.columnMargin {
+    margin: 10px;
+}

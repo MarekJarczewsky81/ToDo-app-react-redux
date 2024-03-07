@@ -1,0 +1,11 @@
+.card {
+  position: relative;
+  background: #fff;
+  border: 1px solid #cacfd9;
+  padding: 12px;
+  margin: 0 0 12px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}/*# sourceMappingURL=Card.module.css.map */

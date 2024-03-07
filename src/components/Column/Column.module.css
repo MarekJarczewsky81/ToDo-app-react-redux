@@ -1,0 +1,39 @@
+.column {
+  flex-shrink: 0;
+  width: calc(33% - 12px);
+  background: #fff;
+  margin: 0 12px 12px 0;
+  padding: 18px;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+  color: #2f3542;
+}
+.column:last-child {
+  margin: 0 0 12px 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 0 18px 0;
+}
+
+.icon::before {
+  padding-right: 12px;
+  color: #e1644e;
+  font-size: 24px;
+  vertical-align: middle;
+  position: relative;
+  top: -4px;
+}
+
+.cards {
+  padding: 6px 0;
+}
+
+@media (max-width: 767px) {
+  .column {
+    width: 100%;
+    margin: 0 0 12px 0;
+  }
+}/*# sourceMappingURL=Column.module.css.map */
